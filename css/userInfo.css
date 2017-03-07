@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px; font-family:'微软雅黑'; background:#fff;}
+.navbar li{ cursor:pointer;}
+.navbar .navbar-form{ margin-right:50px;}
+
+#content{ margin-top:70px;}
+#content h3{ text-align:center; border-bottom:1px solid #ccc; padding-bottom:20px;}
+#content .photo_box{ width:80%; border:1px solid #ccc; padding:10px;}
+#content .user_info{ padding:20px; border-left:1px dashed #ccc; margin-bottom:20px;}
+#content .user_info p{ line-height:40px; font-size:16px; margin-left:20px; clear:both}
+#content .user_info label{width:100px; display: block;text-align:right; float:left;}
+#content .user_info small{ margin-left:20px;}
+
+#footer{ width:100%; background:#f0f1f1;}
+#footer .container .row{ border-bottom:1px solid #ccc;}
+#footer .container .foot_list{ margin-top:30px; margin-bottom:20px; border-left:1px solid #ccc;}
+#footer .container .foot_list:nth-child(1){ border-left:none;}
+#footer .container .foot_list p{}
+#footer .container>p{ text-align:center; margin:30px 0 20px 0;}
+#top{ position:fixed; bottom:80px; right:50px;}
+
+
+

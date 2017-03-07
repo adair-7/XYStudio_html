@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px; font-family:'微软雅黑'; background:#fff;}
+.navbar li{ cursor:pointer;}
+.navbar .navbar-form{ margin-right:50px;}
+.modal-body .form-group{ margin:20px 0 20px 0;}
+.modal-body .btn{ font-family:'微软雅黑';}
+
+#content{ margin-top:50px;}
+#content h3{ text-align:center;}
+#content .media{ margin-top:30px; border-bottom:1px solid #ccc; padding-bottom:30px;}
+#content .media-body h4{}
+#content .media-body p{ line-height:30px; width:90%; margin-top:20px;}
+
+#footer{ width:100%; background:#f0f1f1;margin-top:30px;}
+#footer .container .row{ border-bottom:1px solid #ccc;}
+#footer .container .foot_list{ margin-top:30px; margin-bottom:20px; border-left:1px solid #ccc;}
+#footer .container .foot_list:nth-child(1){ border-left:none;}
+#footer .container .foot_list p{}
+#footer .container>p{ text-align:center; margin:30px 0 20px 0;}
+#top{ position:fixed; bottom:80px; right:50px;}

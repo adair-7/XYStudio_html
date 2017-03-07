@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px; font-family:'微软雅黑'; background:#fff;}
+.navbar li{ cursor:pointer;}
+.navbar .navbar-form{ margin-right:50px;}
+.modal-body .form-group{ margin:20px 0 20px 0;}
+.modal-body .btn{ font-family:'微软雅黑';}
+
+
+#content{ margin-top:50px; margin-bottom:20px;}
+#content h3{ text-align:center;}
+#content img{ width:100%;}
+#content .content_left{ padding-top:0px;}
+#content .content_left ul li{ margin-top:20px; width:100%;}
+
+
+#content .content_right{ padding-top:0px;}
+@media all and (max-width:992px){
+	#content .content_left ul li:hover{ outline:none;}
+	#content .content_left ul h4{width:100%;text-overflow:ellipsis;white-space: nowrap;overflow: hidden;list-style-position: inside; margin-top:5px;}
+	#content .content_left ul p{ line-height:25px;}
+	}
+@media all and (min-width:992px){
+	#content .content_left ul li:hover{ outline:1px solid #09f;}
+	#content .content_left ul h4{width:100%;text-overflow:ellipsis;white-space: nowrap;overflow: hidden;list-style-position: inside; margin-top:10px;}
+	#content .content_left ul p{ line-height:35px;}
+	}
+
+#footer{ width:100%; background:#f0f1f1;}
+#footer .container .row{ border-bottom:1px solid #ccc;}
+#footer .container .foot_list{ margin-top:30px; margin-bottom:20px; border-left:1px solid #ccc;}
+#footer .container .foot_list:nth-child(1){ border-left:none;}
+#footer .container .foot_list p{}
+#footer .container>p{ text-align:center; margin:30px 0 20px 0;}
+#top{ position:fixed; bottom:80px; right:50px;}
+

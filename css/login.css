@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px; font-family:'微软雅黑'; background:url(../images/banner4.jpg) no-repeat center fixed;background-attachment: fixed;background-size: 100% 100%;}
+#container{ width:100%; background:rgba(255,255,255,0.9);position:absolute; top:20%;}
+@media all and (min-width:992px){
+		#container{ min-height:360px;}
+		#container .logo_img img{ margin:100px auto;}
+		#container .login_form{margin:40px auto;} 
+		#container .login_form .form-group{ margin-top:30px;}
+	}
+@media all and (max-width:992px){
+	#container{ min-height:400px;}
+	#container .logo_img img{ margin:20px auto;}
+	#container .login_form{margin:0 auto;} 
+	#container .login_form .form-group{ margin-top:30px;}
+}
