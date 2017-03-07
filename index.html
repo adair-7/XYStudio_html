@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>映象设计工作室3.0</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+	<link href="css/yahoo.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/news.js"></script>
+    <script src="js/case.js"></script>
+    <script src="js/loginCheck.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container"><!--id container-top -->
+    
+    	<div class="navbar navbar-inverse navbar-fixed-top">		<!--导航条-->
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"><!--小于768px时显示-->
+                	<span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"><img src="images/logo1.png" class="img-responsive"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+            	<ul class="nav navbar-nav">
+                	<li class="active"><a href="index.html">网站首页</a></li>
+                    <li><a href="serve.html">项目服务</a></li>
+                    <li><a href="case1.html">案例展示</a></li>
+                    <li><a href="news.html">新闻资讯</a></li>
+                    <li><a href="userInfo.html">用户中心</a></li>
+                    <li><a href="join.html">加入我们</a></li>
+                    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">更多<span class="caret"></span></a>
+                    	<ul class="dropdown-menu">
+                        	<li><a>在线留言</a></li>
+                            <li><a href="download.html">资料下载</a></li>
+                        </ul>
+                    </li>
+               
+                </ul>
+                 <form class="navbar-form navbar-right">
+                	<a class="btn btn-link" data-toggle="modal" data-target=".popupCSS"><span class="glyphicon glyphicon-log-in"></span>&nbsp;登录
+                    </a>
+                    <a href="regist.html" class="btn btn-link"><span class="glyphicon glyphicon-user"></span>&nbsp;注册
+                    </a>
+                </form>
+            </div>
+        </div>
+        
+        <!--轮播图-->
+        <div data-ride='carousel' class="carousel slide" id="carousel-container">
+          <div class="carousel-inner">
+              <div class="item active"><img src="images/banner1.jpg" class="img-responsive"></div>
+              <div class="item"><img src="images/banner2.jpg" class="img-responsive"></div>
+              <div class="item "><img src="images/banner3.jpg" class="img-responsive"></div>
+              <div class="item"><img src="images/banner4.jpg" class="img-responsive"></div>
+          </div>
+          <ol class="carousel-indicators">
+              <li data-slide-to='0' data-target='#carousel-container' class="active"></li>
+              <li data-slide-to='1' data-target='#carousel-container'></li>
+              <li data-slide-to='2' data-target='#carousel-container'></li>
+              <li data-slide-to='3' data-target='#carousel-container'></li>
+          </ol>
+          <a data-slide='prev' href="#carousel-container" class="left carousel-control">
+              <span class='glyphicon glyphicon-chevron-left'></span>
+          </a>
+          <a data-slide='next' href="#carousel-container" class="right carousel-control">
+              <span class='glyphicon glyphicon-chevron-right'></span>
+          </a>
+      </div>
+    <!--项目服务-->
+    <div id="Serve">
+    	<div class="container">
+        	<h3 class="h3"><a href="">项目服务</a></h3>
+            <h5 class="h5">我们承诺向用户提供最优质的服务</h5>
+            <div class="row">
+            	<div class="col-md-3 col-sm-6">
+                	<div class="thumbnail">
+            			<img src="images/serve_1.png">
+               				 <div class="caption">
+                				<h3 class="h4">网站开发</h3>
+                    			<p class="h5">您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制，策划个性、美观的您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制...</p>
+                                <p><a class="btn btn-info">详情查看</a></p>
+                			</div>
+            		</div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                	<div class="thumbnail">
+            			<img src="images/serve_2.png">
+               				 <div class="caption">
+                				<h3 class="h4">平面/UI设计</h3>
+                    			<p class="h5">您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制，策划个性、美观的您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制...</p>
+                                <p><a class="btn btn-info">详情查看</a></p>
+                			</div>
+            		</div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                	<div class="thumbnail">
+            			<img src="images/serve_3.png">
+               				 <div class="caption">
+                				<h3 class="h4">动画设计</h3>
+                    			<p class="h5">您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制，策划个性、美观的您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制...</p>
+                                <p><a class="btn btn-info">详情查看</a></p>
+                			</div>
+            		</div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                	<div class="thumbnail">
+            			<img src="images/serve_4.png">
+               				 <div class="caption">
+                				<h3 class="h4">移动应用开发</h3>
+                    			<p class="h5">您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制，策划个性、美观的您可以选择您想要的语言开发。我们针对公司形象和产品风格量身定制...</p>
+                                <p><a class="btn btn-info">详情查看</a></p>
+                			</div>
+            		</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--案例展示-->
+    <div id="Case">
+    	<div class="container">
+        	<h3 class="h3"><a href="">案例展示</a></h3>
+            <h5 class="h5">每一个优秀的案例都是我们前进的动力</h5>
+            <div class="row">
+            	<div class="col-md-4 col-sm-12 case_box">
+                	<img class="img-responsive" src="images/case_pic1.jpg">
+                    <p>案例展示</p><span>网站开发</span>
+                </div>
+                <div class="col-md-4 col-sm-12 case_box">
+                	<img class="img-responsive" src="images/case_pic1.jpg">
+                    <p>案例展示</p><span>网站开发</span>
+                </div>
+                <div class="col-md-4 col-sm-12 case_box">
+                	<img class="img-responsive" src="images/case_pic1.jpg">
+                    <p>案例展示</p><span>网站开发</span>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-md-4 col-sm-12 case_box">
+                	<img class="img-responsive" src="images/case_pic2.jpg">
+                    <p>案例展示</p><span>网站开发</span>
+                </div>
+                <div class="col-md-4 col-sm-12 case_box">
+                	<img class="img-responsive" src="images/case_pic2.jpg">
+                    <p>案例展示</p><span>网站开发</span>
+                </div>
+                <div class="col-md-4 col-sm-12 case_box">
+                	<img class="img-responsive" src="images/case_pic2.jpg">
+                    <p>案例展示</p><span>网站开发</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--新闻资讯-->
+    <div id="News">
+    	<div class="row">
+        	<h3 class="h3"><a href="">新闻资讯</a></h3>
+            <h5 class="h5">为您提供实时的新闻资讯</h5>
+            <div id="news_content">
+                <div class="news_box">
+                    <img class="img-responsive" src="images/news_pic1.jpg">
+                    <p class="h4"><a href="#">非农玩偶傲风欧爱东哦啊是觉得哦啊建瓯覅哦啊奥迪奥迪阿山东哎啊降低为骄傲大家熬多久哦哦奥迪</a></p>
+                    <small>2015-10-10</small>
+                </div>
+                <div class="news_box">
+                    <img class="img-responsive" src="images/news_pic1.jpg">
+                    <p class="h4"><a href="#">非农玩偶傲风欧爱东哦啊是觉得哦啊建瓯覅哦啊奥迪奥迪阿山东哎啊降低为骄傲大家熬多久哦哦奥迪</a></p>
+                    <small>2015-10-10</small>
+                </div>
+                <div class="news_box">
+                    <img class="img-responsive" src="images/news_pic2.jpg">
+                    <p class="h4"><a href="#">非农玩偶傲风欧爱东哦啊是觉得哦啊建瓯覅哦啊奥迪奥迪阿山东哎啊降低为骄傲大家熬多久哦哦奥迪</a></p>
+                    <small>2015-10-10</small>
+                </div>
+                <div class="news_box">
+                    <img class="img-responsive" src="images/news_pic2.jpg">
+                    <p class="h4"><a href="#">非农玩偶傲风欧爱东哦啊是觉得哦啊建瓯覅哦啊奥迪奥迪阿山东哎啊降低为骄傲大家熬多久哦哦奥迪</a></p>
+                    <small>2015-10-10</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--关于我们-->
+    <div id="About">
+    	<div class="container">
+        	<h3 class="h3"><a href="">关于我们</a></h3>
+            <p>映像设计为安徽财贸学院电子信息系计算机应用专业大学生创立品牌;</p>
+            <p>2013年创建于安徽财贸学院;</p>
+            <p>我们致力于企事业网站、移动端以及平面媒体视觉形象策划设计，为客户提供整体系列解决方案；</p>
+            <p>设计师及工程师均源自于计应专业大学生，他们热血向上，衷于专业学习；</p>
+            <p>好的设计源于情感与理智之间，设计始终是为品牌服务，展现最佳视觉效果并融入商业需求，</p>
+            <p>寻找这二者之间的最佳平衡点一直是我们的追求目标。好的设计能够提升商品品质，并且影响商品价值。</p>
+            <p>我们曾经多次服务过校内外多家企业及单位，拥有多个自主开发项目</p>
+            <p>未来我们必将以最前沿的技术引领客户实现商业价值最大化！</p>
+        </div>
+    </div>
+    <!--页脚-->
+    <div id="footer">
+    	<div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">映象设计工作室</p>
+                    <p class="h5">•	<a href="">工作室简介</a></p>
+                    <p class="h5">•	<a href="">工作室成员</a></p>
+                    <p class="h5">•	<a href="">工作室制度</a></p>
+                    <p class="h5">•	<a href="">下载资源</a></p>
+                </div>
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">网站服务</p>
+                    <p class="h5">•	<a href="">网站开发</a></p>
+                    <p class="h5">•	<a href="">平面/UI设计</a></p>
+                    <p class="h5">•	<a href="">动画设计</a></p>
+                    <p class="h5">•	<a href="">移动应用开发</a></p>
+                </div>
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">帮助中心</p>
+                    <p class="h5">•	<a href="">技术问答</a></p>
+                    <p class="h5">•	<a href="">相关权益</a></p>
+                    <p class="h5">•	<a href="">常见问题</a></p>
+                    <p class="h5">•	<a href="">服务条款</a></p>
+                    <p class="h5">•	<a href="">免责声明</a></p>
+                </div>
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">交流合作</p>
+                    <p class="h5">•	<a href="">关于我们</a></p>
+                    <p class="h5">•	<a href="">联系我们</a></p>
+                    <p class="h5">•	<a href="">工作室招聘</a></p>
+                    <p class="h5">•	<a href="">友情链接</a></p>
+                </div>
+            </div>
+            <p>Copyright © 2013-2015 映象工作室  All Rights Reversed.</p>
+        </div>
+    </div>
+        
+    </div><!--id container-bottom -->
+	
+    <!--弹出层表单-->
+	<div class="modal fade popupCSS">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title h4">欢迎登录</h4>
+                </div>
+                <div class="modal-body">
+                	<form>
+                          <div class="form-group" id="group_user">
+                              <input type="text" class="form-control" placeholder="映象账号" id="userName">		<!--form-control类样式的宽度为100%-->
+                              <p id="tip_user"></p>
+                          </div>
+                          <div class="form-group">
+                              <input type="password" class="form-control" placeholder="密码" id="passWord">
+                              <p id="tip_pwd"></p>
+                          </div>
+                          <div class="checkbox">
+                              <label><input type="checkbox">记住密码</label>
+                              <a href="" class="pull-right" data-toggle='tooltip' data-original-title='找回密码' data-placement='left'>忘记密码？</a>
+                          </div>
+                         <button type="submit" class="btn btn-info btn-block" id="btn_login">登&nbsp;录</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                <small>没有账户？<a href="">立即注册</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="top" class="btn btn-default" data-toggle='tooltip' data-original-title='返回顶部' data-placement='bottom'><span class="glyphicon glyphicon-arrow-up"></span></a>
+    <script>
+    	$(function(){
+				var top=$("#top");
+				top.click(function(){
+						$(document.body).animate({scrollTop:0},'normal');
+						return false;
+					})
+			})
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$('[data-toggle=tooltip]').tooltip();
+    </script>
+  </body>
+</html>

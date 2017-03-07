@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>映象设计工作室3.0</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/userInfo.css" rel="stylesheet">
+	<link href="css/yahoo.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container"><!--id container-top -->
+    
+    	<div class="navbar navbar-inverse navbar-fixed-top">		<!--导航条-->
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"><!--小于768px时显示-->
+                	<span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"><img src="images/logo1.png" class="img-responsive"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+            	<ul class="nav navbar-nav">
+                	<li><a href="index.html">网站首页</a></li>
+                    <li><a href="serve.html">项目服务</a></li>
+                    <li><a href="case1.html">案例展示</a></li>
+                    <li><a href="news.html">新闻资讯</a></li>
+                    <li class="active"><a>用户中心</a></li>
+                    <li><a href="join.html">加入我们</a></li>
+                    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">更多<span class="caret"></span></a>
+                    	<ul class="dropdown-menu">
+                        	<li><a>在线留言</a></li>
+                            <li><a>资料下载</a></li>
+                        </ul>
+                    </li>
+               
+                </ul>
+            </div>
+        </div>
+        <!--用户信息-->
+        <div id="content" class="container">
+        	<h3 class="h3">用户信息</h3>
+            <div class="row">
+            	<div class="col-md-3 col-sm-12">
+                	<div class="photo_box">
+                    	<img src="images/head.jpeg" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12 user_info">
+                	<p><label><span class="glyphicon glyphicon-user"></span>用户昵称:</label><small>张涛</small></p>
+                    <p><label><span class="glyphicon glyphicon-phone"></span>手机号码:</label><small>6513132165</small></p>
+                    <p><label><span class="glyphicon glyphicon-envelope"></span>用户邮箱:</label><small>65131651</small></p>
+                    <p><label><span class="glyphicon glyphicon-globe"></span>用户QQ:</label><small>6851851</small></p>
+                    <p><a href="#" class="btn btn-link">修改用户信息</a></p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+     <!--页脚-->
+    <div id="footer">
+    	<div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">映象设计工作室</p>
+                    <p class="h5">•	<a href="">工作室简介</a></p>
+                    <p class="h5">•	<a href="">工作室成员</a></p>
+                    <p class="h5">•	<a href="">工作室制度</a></p>
+                    <p class="h5">•	<a href="">下载资源</a></p>
+                </div>
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">网站服务</p>
+                    <p class="h5">•	<a href="">网站开发</a></p>
+                    <p class="h5">•	<a href="">平面/UI设计</a></p>
+                    <p class="h5">•	<a href="">动画设计</a></p>
+                    <p class="h5">•	<a href="">移动应用开发</a></p>
+                </div>
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">帮助中心</p>
+                    <p class="h5">•	<a href="">技术问答</a></p>
+                    <p class="h5">•	<a href="">相关权益</a></p>
+                    <p class="h5">•	<a href="">常见问题</a></p>
+                    <p class="h5">•	<a href="">服务条款</a></p>
+                    <p class="h5">•	<a href="">免责声明</a></p>
+                </div>
+                <div class="col-md-3 col-sm-12 foot_list">
+                    <p class="h4">交流合作</p>
+                    <p class="h5">•	<a href="">关于我们</a></p>
+                    <p class="h5">•	<a href="">联系我们</a></p>
+                    <p class="h5">•	<a href="">工作室招聘</a></p>
+                    <p class="h5">•	<a href="">友情链接</a></p>
+                </div>
+            </div>
+            <p>Copyright © 2013-2015 映象工作室  All Rights Reversed.</p>
+        </div>
+    </div>
+        
+    </div><!--id container-bottom -->
+    
+    <a id="top" class="btn btn-default" data-toggle='tooltip' data-original-title='返回顶部' data-placement='bottom'><span class="glyphicon glyphicon-arrow-up"></span></a>
+    <script>
+    	$(function(){
+				var top=$("#top");
+				top.click(function(){
+						$(document.body).animate({scrollTop:0},'normal');
+						return false;
+					})
+			})
+    </script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$('[data-toggle=tooltip]').tooltip();
+    </script>
+    
+  </body>
+</html>
